@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"s3backend","Source":"terraform-in-action/s3backend/aws","Version":"0.1.10","Dir":".terraform/modules/s3backend"}]}
