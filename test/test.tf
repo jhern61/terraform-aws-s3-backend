@@ -1,11 +1,11 @@
 terraform {
   backend "s3" {
-    bucket         = "team-rocket-s0g8q6sl7fsb-state-bucket"
+    bucket         = "team-rocket-oe7gpsewf95b-state-bucket"
     key            = "jesse/james"
     region         = "us-west-2"
     encrypt        = true
-    role_arn       = "arn:aws:iam::017735233214:role/team-rocket-s0g8q6sl7fsb-tf-assume-role"
-    dynamodb_table = "team-rocket-s0g8q6sl7fsb-state-lock"
+    role_arn       = "arn:aws:iam::017735233214:role/team-rocket-oe7gpsewf95b-tf-assume-role"
+    dynamodb_table = "team-rocket-oe7gpsewf95b-state-lock"
     profile        = "tfuser1"
   }
   required_version = ">= 0.15"
